@@ -7,7 +7,7 @@ import { ScrollTrigger } from "gsap/dist/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 
-function text({className}) {
+function Text({className}) {
     
     useGSAP(()=>{
        gsap.to("*",{
@@ -83,4 +83,4 @@ function text({className}) {
   )
 }
 
-export default text
+export default Text
